@@ -1,0 +1,17 @@
+# Python
+*.ipynb_checkpoints
+*.npy
+*.pyc
+
+# vim
+*.swp
+*.swo
+
+
+# Archivos de audio
+*.wav
+*.WAV
+*.flac
+*.FLAC
+
+

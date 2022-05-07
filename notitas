@@ -1,0 +1,1 @@
+el django debug toolbar me rompia el built in admin. Sacando la config de middleware lo pude levantar de nuevo. Por ahi hay que probar con otras versiones de django, o ver cuestiones de orden a la hora de llamar a las apps. Por ahora descarto el debugger.

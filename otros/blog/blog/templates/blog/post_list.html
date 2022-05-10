@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projecto de Blog</title>
+        <p>Este es</p>
+        <p>El encabezado</p>
+    </head>
+
+    <body>
+        {% for post in posts %}
+        <article>
+            <time>published: {{ post.published_date }}</time>
+            <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </article>
+        {%endfor%}
+    </body>
+
+    <footer>
+        <p>Este es</p>
+        <p>El pie de pagina</p>
+    </footer>
+
+</html>

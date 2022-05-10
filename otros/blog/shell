@@ -1,0 +1,4 @@
+Post.objects.all() --> query set
+Post.objects.all()[0] --> una instancia de la clase Post. No puedo cambiarle los atributos de clase
+Post.objects.create(author=me, title='Sample title', text=Test)
+User.objects.get(username='username')

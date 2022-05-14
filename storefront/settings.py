@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'posts.apps.PostsConfig',
     'pages.apps.PagesConfig',
-    'playground'
+    'playground',
+    'survey'
 ]
 
 MIDDLEWARE = [
